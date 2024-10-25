@@ -1,19 +1,28 @@
-##🍕 Pizza Delivery Management System
+🍕Pizza Delivery Management System
 
 
+This is a simple Pizza Delivery Management System built using Python and SQLite. The system allows you to manage
+customers, orders, and pizzas through a command-line interface.
 
-This project is a Pizza Delivery Management System built with Python and SQLite. It provides a simple command-line 
-interface for managing customers, handling pizza orders, updating delivery statuses, and tracking sales for a pizza delivery business.
+# Features
+Manage customers (add, update, delete).
+Manage pizza orders (create, update, delete).
+Track order delivery statuses.
+Manage a pizza menu (add, update, delete items).
+View total sales and generate basic reports.
 
-🚀 Features
-Customer Management: Create, update, and delete customer records.
+#Technologies Used
+Python
+SQLite
 
-Order Management: Place new pizza orders, update existing ones, and delete orders.
-Pizza Menu Management: Add, edit, or remove pizza menu items.
-Delivery Status Tracking: Track the delivery status of orders (e.g., Pending, In-Progress, Delivered).
-Sales Reporting: View total sales and generate basic sales reports.
-SQLite Integration: All data is stored in an SQLite database for persistence.
-User-friendly CLI: Interactive command-line interface to manage all operations.
-🛠️ Technologies Used
-Python: Core logic for managing the system.
-SQLite: Database to store customer, order, and pizza menu details.
+Setup Instructions
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/pizza-delivery-management.git
+Navigate into the project directory:
+
+bash
+Copy code
+cd pizza-delivery-management
